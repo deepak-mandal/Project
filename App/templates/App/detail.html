@@ -1,0 +1,30 @@
+{% if course.pk is 1 %}
+<h1>
+    <a href="https://deepak-mandal.github.io">{{course.coursename}}
+
+    </a>
+</h1>
+<h2>{{course.insname}}</h2>
+{% elif course.pk is 2 %}
+<h1><a href="https://linkedin/in/deepakmandal">{{course.coursename}}</a></h1>
+<h2>{{course.insname}}</h2>
+{% else %}
+<h1>{{course.coursename}}</h1>
+<h1>{{course.insname}}</h1>
+{% endif %}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
